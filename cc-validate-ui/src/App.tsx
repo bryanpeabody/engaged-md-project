@@ -36,7 +36,7 @@ function App() {
   // Handles validate button click. Calls API with card number provided.
   //
   const handleValidateClick = async () => {
-    if (cardNum.length !== 0) {
+    if (cardNum.trim().length !== 0) {
       try {
         //
         // Use fetch to call the validate API
