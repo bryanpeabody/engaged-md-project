@@ -14,7 +14,7 @@ function App() {
   
   //
   // Determines if the card number is valid. Possible values are
-  // 0 - unknown, 1 - valid, 2 - invalid.
+  // 0: unknown, 1: valid, -1: invalid.
   //
   let [valid, setValid] = useState(0)
 
